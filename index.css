@@ -1,0 +1,45 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100svh;
+    width: 100svw;
+    display: grid;
+    place-items: center;
+}
+
+
+.root {
+    text-shadow: 1px 1px 2px black;
+    width: 500px;
+    height: 500px;
+    background-color: aqua;
+}
+.menu{
+    color: white;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #337ab7;
+    color: white;
+    border: #245580 1px solid;
+}

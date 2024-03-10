@@ -1,0 +1,39 @@
+.root {
+    background-color: white;
+    text-shadow: none;
+}
+
+header {
+    background-color: #3cad7e;
+    color: white;
+    text-align: center;
+    height: 207.6px;
+    padding-top: 50px;
+}
+
+h2 {
+    color: #bbbbbb;
+}
+
+input {
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin-top: 20px;
+    padding: 10px 15px;
+}
+
+main,
+header {
+    text-align: center;
+    background-color: #3cad7e;
+    width: 500px;
+    color: white;
+}
+
+img {
+    width: 100%;
+    margin: 10px 0 -4px 0;
+}

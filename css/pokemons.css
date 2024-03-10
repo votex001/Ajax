@@ -1,0 +1,25 @@
+.root {
+    background-color: white;
+    height: auto;
+    text-shadow: none;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fit,minmax(130px,1fr));
+    grid-template-rows: repeat(auto-fit,200px);
+}
+
+
+.pokemon{
+    text-align: center;
+    height: 200px;
+    padding-top: 10px;
+    background-color: #a52a2a;
+}
+.csv{
+    color: white;
+    font-size: small;
+    text-decoration: none;
+    background-color: blue;
+    padding: 15px 10px;
+    border-radius: 5px;
+}

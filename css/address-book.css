@@ -1,0 +1,38 @@
+.root {
+    display: grid;
+    width: 800px;
+    gap: 40px;
+    grid-template-columns: auto auto;
+    background-color: white;
+    text-shadow: none;
+}
+
+section {
+    display: grid;
+    height: 125px;
+    grid-template-areas:
+        'header header header'
+        'img main info ';
+    grid-template-rows: 20px 100px;
+    gap: 1px;
+
+}
+
+.header {
+    grid-area: header;
+    margin: 0;
+    background-color: orange;
+}
+
+.info {
+    grid-area: main;
+}
+
+.layout-info {
+    grid-area: info;
+}
+
+img {
+    width: 100px;
+    grid-area: img;
+}
